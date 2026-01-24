@@ -15,9 +15,10 @@
   - searchbar
   - movie suggestion
 
-- this is my 2024 project old prject , this project have learning phase
+- this is my 2024 project old prject , this project have learning phase of
   -useSTate,useEffct,custom hooks
   -TMDB (movie api)
-  -integration of OpenAI ,but i have to remove it
+  -integration of OpenAI ,but i had to remove it
   -Redux,redux Toolkit
   -taiwlind
+  -firebase for authetication
