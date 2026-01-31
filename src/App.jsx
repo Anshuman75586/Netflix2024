@@ -8,6 +8,7 @@ import { auth } from "./utils/firebase";
 import { useDispatch } from "react-redux";
 import { addUser, removeUser } from "./utils/userslice";
 import Footer from "./components/Footer";
+import SmoothScroll from "./SmoothScroll";
 
 function Applayout() {
   const dispatch = useDispatch();
@@ -25,8 +26,10 @@ function Applayout() {
 
   return (
     <div>
-      <Header />
-      <Outlet />
+      <SmoothScroll>
+        <Header />
+        <Outlet />
+      </SmoothScroll>
     </div>
   );
 }
